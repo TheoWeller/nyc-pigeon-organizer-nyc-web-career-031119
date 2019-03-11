@@ -1,8 +1,10 @@
+require 'pry'
 def nyc_pigeon_organizer(data)
   pigeon_list = {}
 
   data.each do |key, value|
   value.map do |values, name|
+    binding.pry
   name.each do |element|
 
     pigeon_list[element] ||= {}
