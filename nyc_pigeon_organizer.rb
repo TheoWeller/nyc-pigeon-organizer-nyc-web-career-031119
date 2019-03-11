@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
 
   data.each do |color, attribute|
     attribute.map do |key, names|
-      names.each do |data|
+      names.each do |element|
 
         pigeon_list[data] ||= {}
         pigeon_list[data][color]||= []
