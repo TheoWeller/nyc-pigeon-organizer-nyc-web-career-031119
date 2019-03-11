@@ -1,5 +1,5 @@
 require 'pry'
-def nyc_pigeon_organizer(data)
+def nyc_pigeon_organizer(data1)
   pigeon_list = {}
 
   data.each do |color, attribute|
