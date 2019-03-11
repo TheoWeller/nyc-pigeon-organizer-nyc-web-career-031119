@@ -8,7 +8,7 @@ def nyc_pigeon_organizer(data1)
 
         pigeon_list[data] ||= {}
         pigeon_list[data][color]||= []
-        pigeon_list[data][color] << values.to_s
+        pigeon_list[data][color] << key.to_s
       end
     end
   end
